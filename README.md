@@ -5,12 +5,12 @@
 1. Fork this repository
 2. Clone it locally
 3. Set your remote upstream: 
-`git remote add upstream git@github.com:allisonkadel/hedgehogs.git`
+`git remote add upstream git@github.com:allisonkadel/bears.git`
 
 ## All Contributions:
 
 4. Create a new branch:
-git checkout -b branch-name
+`git checkout -b branch-name`
 5. Make any change to the repo locally and save it
 6. Stage and Commit the change
 `git add .`
