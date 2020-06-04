@@ -1,12 +1,26 @@
 import React from 'react';
 
 export default class NewReservationForm extends React.Component{
+    state = {
+        site: "",
+        name: "",
+        date: ""
+    }
+
+    handleOnChange = (e) => {
+        this.setState({
+            [e.target.name]: e.target.value
+        })
+    }
+
+    
+
 
     render(){
         return(
 
             <div>
-                <form>
+                <form onChange ={this.handleOnChange}>
                     <label>Site</label>
                     <br />
                     <input type="text" name="site" placeholder="site" />
