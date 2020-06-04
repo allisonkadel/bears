@@ -25,9 +25,9 @@ export default class Reservations extends React.Component{
         return(
             <div>
                 <ol>
-            {data.map(s => {
+            {data.map((s, index) => {
             return(
-                    <li>{s.site}<br/>{s.name}<br/>{s.date}</li>
+                    <li key={index}>{s.site}<br/>{s.name}<br/>{s.date}</li>
             )
             })} 
                 </ol>
